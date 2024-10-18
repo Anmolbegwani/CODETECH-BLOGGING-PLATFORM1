@@ -1,0 +1,200 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4; /* Light background for contrast */
+    color: #333; /* Darker text color for readability */
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(90deg, #ff416c, #ff4b2b); /* Gradient for navbar */
+    padding: 15px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.brand a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    float: right;
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+/* Auth Box Styling */
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.auth-box {
+    background-color: #fff; /* White background for auth boxes */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    width: 400px; /* Fixed width for consistency */
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+    color: #ff416c; /* Title color */
+}
+
+.auth-box input, .auth-box select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.auth-box button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff416c;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.auth-box button:hover {
+    background-color: #ff4b2b; /* Darker shade on hover */
+}
+
+/* Create Post Section */
+.create-post, .content-section {
+    padding: 60px 0;
+}
+
+.create-post h2 {
+    margin-bottom: 20px;
+    color: #ff416c; /* Title color */
+}
+
+.create-post input, .create-post textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for inputs */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.create-post button {
+    padding: 15px 30px;
+    background-color: #ff416c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.create-post button:hover {
+    background-color: #ff4b2b; /* Darker shade on hover */
+}
+
+/* Blog Posts Styling */
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog-post {
+    background-color: #fff; /* White background for posts */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+    color: #ff416c; /* Post title color */
+}
+
+.blog-post button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff416c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.blog-post button:hover {
+    background-color: #ff4b2b; /* Darker shade on hover */
+}
+
+/* Comment Section */
+.comment-section {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.comment-section h3 {
+    color: #ff416c; /* Title color */
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .auth-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .auth-box {
+        width: 90%; /* Responsive width */
+    }
+}
