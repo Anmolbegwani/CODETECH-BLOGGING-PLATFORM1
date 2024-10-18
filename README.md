@@ -8,6 +8,7 @@ Blogging Platform
 
 Overview :
 A dynamic website that allows users to sign up, create, edit, and delete blog posts. The platform features user authentication and a comment section, designed responsively for optimal viewing on various devices.
+![Screenshot 2024-10-18 at 1 47 17 PM](https://github.com/user-attachments/assets/c193f955-0410-417f-b541-c2468a81f872)
 
 Key Activities :
 User Interface Design: Creating an intuitive layout for user registration and blog management.
